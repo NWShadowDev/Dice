@@ -1,3 +1,109 @@
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: black; }
 
+.pip {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px; }
+
+/*Styling for first-face*/
+.first-face {
+  background-color: white;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px; }
+
+/*Styling for second-face*/
+.second-face {
+  background-color: white;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px; }
+
+.second-face .pip:nth-of-type(2) {
+  align-self: flex-end; }
+
+/*Styling for third-face*/
+.third-face {
+  background-color: white;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px; }
+
+.third-face .pip:nth-of-type(2) {
+  align-self: center; }
+
+.third-face .pip:nth-of-type(3) {
+  align-self: flex-end; }
+
+/*Styling for fourth-face*/
+.fourth-face {
+  background-color: white;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px; }
+
+.fourth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+/*Styling for fifth-face*/
+.fifth-face {
+  background-color: white;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px; }
+
+.fifth-face .column {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; }
+
+/*Styling for sixth-face*/
+.sixth-face {
+  background-color: white;
+  border: solid black 1px;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px; }
+
+.sixth-face .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=styles.css.map */
